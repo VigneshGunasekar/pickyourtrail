@@ -18,8 +18,8 @@ public class PalindromeHelper implements Palindrome {
     public String readStringFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the String : ");
-        String dtr = scanner.nextLine();
-        return dtr;
+        String inputString = scanner.nextLine();
+        return inputString;
     }
 
     /**
